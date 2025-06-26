@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "cssBro",
+    "version": "1.0.0",
+    "description": "cssBro is an open-source alternative to CSSPro, offering an intuitive and powerful way to inspect, edit, and experiment with CSS on any webpage directly from your browser.",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "cssbro.png",
+      "32": "cssbro.png",
+      "48": "cssbro.png",
+      "128": "cssbro.png"      
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["assets/main.js"],
+        "css": ["assets/main.css"]
+      }
+    ],
+    "permissions": ["scripting", "activeTab", "storage", "tabs"]
+  }

@@ -1,0 +1,71 @@
+.css-input {
+    border-radius: 6px;
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 65px;
+    max-width: max-content;
+    height: max-content;
+    font: 400 13.3333px -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    margin: initial;
+    padding: initial;
+    letter-spacing: initial;
+}
+
+.css-input:hover:not(.css-input.disabled) {
+    box-shadow: rgb(255 255 255 / 74%) 0px 0px 1px;
+    outline: 1px solid rgb(255 255 255 / 37%);
+}
+
+.css-input.disabled {
+    cursor: not-allowed !important;
+}
+
+.css-input .left-icon {
+    color: #ccc !important;
+    font-size: 13px !important;
+    padding: 4.1% 8px !important;
+    padding-right: 4px !important;
+    width: 13px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: content-box !important;
+    cursor: ew-resize;
+    user-select: none;
+    position: relative;
+}
+
+.css-input input {
+    padding: 6px 4px !important;
+    margin: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    background: none !important;
+    color: #fff !important;
+    line-height: initial;
+    font-size: 14px !important;
+    box-shadow: none !important;
+    width: 33px;
+    height: initial !important;
+    display: initial;
+    box-sizing: border-box;
+    vertical-align: initial;
+    min-width: initial !important;
+    min-height: initial !important;
+    user-select: none;
+}
+
+.css-input.disabled input {
+    color: #ccc !important;
+}
+
+.css-input.compact input {
+    padding: 6px 0px 6px 0px !important;
+}
+
+.css-input.compact select {
+    padding: 6px 0px 6px 0px !important;
+}
+
+.css-input.compact input {
+    width: 28px !important;
+}
