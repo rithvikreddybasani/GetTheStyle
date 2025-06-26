@@ -65,6 +65,3 @@ Contributions are welcome! To contribute:
 ## 📜 License
 
 GetTheStyle is licensed under the GNU GENERAL PUBLIC LICENSE.
-
-
-☕ Brewed with ❤️ by [DevCafeInn](https://github.com/DevCafeInn)!
